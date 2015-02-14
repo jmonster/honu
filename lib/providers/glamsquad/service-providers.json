@@ -1,0 +1,12 @@
+[
+  {
+    "firstName": "Sarah",
+    "lastName": "Chipps",
+    "email": "sarah@chipps.foo",
+    "phoneNumber": "8088088008",
+    "photo": "http://img.src/foo.jpg?id=sarah",
+    "bio": "Just a girl, standing in front of a microprocessor, asking it to love her. I made @girldevelopit. I'm making @jewliebots.",
+    "services": ["blowout","manicure"],
+    "neighborhood": "soho"
+  }
+]

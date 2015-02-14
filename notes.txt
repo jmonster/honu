@@ -1,0 +1,12 @@
+Stylist submits blocks of availability
+  - startsAt
+  - endsAt
+  - repeats?
+    * daily
+    * weekly
+
+UI wise, they pick a day off a calendar. It lists all blocks for that day -- either specifically, one-off for that day ... or a repeating event that happens to fall on that day.
+
+problem: they have a repeating event that they want to disable for one day. fuck.
+
+so regardless of using google cal or not i face the same dillema: a stylist can delete a huge chunk of time and trigger tons of appointments to become fucked without a stylist. but you can easily trigger the same problem with gcal. So, when that happens I can trigger having the appt rescheduled to another appointment. Everytime a stylist adds new availability I can attempt to assign any unassigned appointments to them. And then we can schedule an email to be sent for any unassigned appointments when it’s X hours/days before the appointment. When we get *very* close and no ones on the roster, we cancel the appointment
