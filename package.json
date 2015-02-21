@@ -15,8 +15,10 @@
   },
   "dependencies": {
     "bluebird": "^2.9.9",
+    "bookshelf": "^0.7.9",
+    "knex": "^0.7.3",
+    "lodash": "^3.3.0",
     "moment": "^2.9.0",
-    "sails-postgresql": "^0.10.14",
-    "waterline": "^0.10.18"
+    "pg": "^4.2.0"
   }
 }
