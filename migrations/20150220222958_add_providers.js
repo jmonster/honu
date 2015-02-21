@@ -11,9 +11,6 @@ exports.up = function(knex, Promise) {
     t.string('bio');
     t.integer('rating');
     t.integer('number_of_ratings');
-
-    // hasAndBelongstoMany: appointments
-    // hasAndBelongstoMany: services
   });
 };
 

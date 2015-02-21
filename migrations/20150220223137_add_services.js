@@ -13,8 +13,6 @@ exports.up = function(knex, Promise) {
     t.date('last_day_offered');
     t.string('description').notNullable();
     t.boolean('disabled').defaultTo(false);
-
-    // hasAndBelongstoMany: providers
   });
 };
 
